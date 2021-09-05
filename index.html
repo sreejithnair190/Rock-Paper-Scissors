@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ROCK, PAPER, SCISSORS!</h1>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+        <img
+          src="./images/rock.png"
+          alt="rock"
+          id="rock"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="./images/paper.png"
+          alt="paper"
+          id="paper"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="./images/scissors.jpg"
+          alt="scissors"
+          id="scissors"
+          onclick="rpsGame(this)"
+        />
+      </div>
+      <br />
+      <div class="result" id="result">
+        <!-- <img src="./images/won.gif" alt="won" /> -->
+      </div>
+    </div>
+    <script src="gameEngine.js"></script>
+  </body>
+</html>
